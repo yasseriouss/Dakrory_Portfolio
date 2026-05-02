@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إسلام الدكرورى - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&family=Tajawal:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --navy: #0F1C2E;
+            --gold: #D4AF37;
+            --white: #F5F5F5;
+            --gray: #A8A8A8;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--navy) 0%, #132640 100%);
+            color: var(--white);
+            font-family: 'DM Sans', sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            animation: fadeIn 1s ease 0.3s both;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            letter-spacing: -2px;
+        }
+
+        .highlight {
+            color: var(--gold);
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: var(--gray);
+            margin-bottom: 3rem;
+            line-height: 1.8;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1.2rem 2.5rem;
+            background: var(--gold);
+            color: var(--navy);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 2px solid var(--gold);
+            font-size: 1.1rem;
+        }
+
+        .btn:hover {
+            background: transparent;
+            color: var(--gold);
+            transform: translateY(-3px);
+        }
+
+        .btn.secondary {
+            background: transparent;
+            color: var(--gold);
+            border: 2px solid var(--gold);
+        }
+
+        .btn.secondary:hover {
+            background: var(--gold);
+            color: var(--navy);
+        }
+
+        .feature {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+            padding-top: 4rem;
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        .feature-item {
+            text-align: center;
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-title {
+            color: var(--gold);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 1024px) {
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 1.05rem;
+            }
+
+            .feature {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+                gap: 1.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+                line-height: 1.2;
+                margin-bottom: 1.5rem;
+            }
+
+            p {
+                font-size: 0.95rem;
+                margin-bottom: 2.5rem;
+            }
+
+            .button-group {
+                flex-direction: column;
+                gap: 1.2rem;
+            }
+
+            .btn {
+                width: 100%;
+                padding: 1rem 1.5rem;
+                font-size: 1rem;
+                min-height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .feature {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+                margin-top: 2.5rem;
+                border-top: none;
+                padding-top: 0;
+            }
+
+            .feature-icon {
+                font-size: 2rem;
+                margin-bottom: 0.8rem;
+            }
+
+            .feature-title {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 1rem;
+            }
+
+            .container {
+                max-width: 100%;
+                padding: 0;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+                margin-bottom: 0.8rem;
+                letter-spacing: -1px;
+            }
+
+            p {
+                font-size: 0.9rem;
+                margin-bottom: 2rem;
+                line-height: 1.6;
+            }
+
+            .button-group {
+                gap: 0.8rem;
+            }
+
+            .btn {
+                padding: 0.9rem 1.2rem;
+                font-size: 0.9rem;
+                min-height: 44px;
+                border-radius: 40px;
+            }
+
+            .feature {
+                gap: 1.2rem;
+                margin-top: 2rem;
+            }
+
+            .feature-icon {
+                font-size: 1.8rem;
+                margin-bottom: 0.6rem;
+            }
+
+            .feature-title {
+                font-size: 0.95rem;
+                margin-bottom: 0.3rem;
+            }
+        }
+
+        @media (max-width: 360px) {
+            h1 {
+                font-size: 1.5rem;
+                margin-bottom: 0.6rem;
+            }
+
+            p {
+                font-size: 0.85rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .btn {
+                padding: 0.8rem 1rem;
+                font-size: 0.85rem;
+                min-height: 42px;
+            }
+
+            .feature-icon {
+                font-size: 1.6rem;
+            }
+
+            .feature-title {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My <span class="highlight">Portfolio</span></h1>
+        <p>Discover my expertise in Production Engineering, BOM Management, and Manufacturing Excellence</p>
+        
+        <div class="button-group">
+            <a href="islam_dakrory_portfolio.html" class="btn">Read in English</a>
+            <a href="islam_dakrory_portfolio_ar.html" class="btn secondary">اقرأ بالعربية</a>
+        </div>
+
+        <div class="feature">
+            <div class="feature-item">
+                <div class="feature-icon">📊</div>
+                <div class="feature-title">BOM</div>
+                <p style="font-size: 0.9rem; margin: 0;">Management</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">⚙️</div>
+                <div class="feature-title">Production</div>
+                <p style="font-size: 0.9rem; margin: 0;">Routing</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🎯</div>
+                <div class="feature-title">Manufacturing</div>
+                <p style="font-size: 0.9rem; margin: 0;">Excellence</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
