@@ -5,7 +5,7 @@ Comprehensive responsive design enhancements have been applied to all three port
 
 ## Changes Summary
 
-### 1. **index_islam.html** (Landing Page)
+### 1. **index.html** (Landing Page)
 **Enhancements:**
 - Added 3 responsive breakpoints (1024px, 768px, 480px)
 - Improved button sizing for mobile (full-width)
@@ -203,7 +203,7 @@ All improvements from the English version plus:
 ## File Sizes (Estimated)
 | File | Original | Updated | Change |
 |------|----------|---------|--------|
-| index_islam.html | ~5KB | ~6KB | +1KB (media queries) |
+| index.html | ~5KB | ~6KB | +1KB (media queries) |
 | islam_dakrory_portfolio.html | ~29KB | ~35KB | +6KB (mobile menu + media queries) |
 | islam_dakrory_portfolio_ar.html | ~31KB | ~37KB | +6KB (RTL mobile menu + media queries) |
 

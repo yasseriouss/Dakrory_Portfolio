@@ -7,8 +7,8 @@ A complete bilingual professional portfolio website for **Islam Dakrory**, Senio
 
 ## 📁 Files Created
 
-### 1. **index_islam.html** ⭐ (Landing Page)
-- **Purpose**: Bilingual welcome page with language selection
+### 1. **index.html** ⭐ (Landing Page)
+- **Purpose**: Bilingual welcome page with language selection (Renamed from index_islam.html for better hosting compatibility)
 - **Content**: 
   - Elegant introduction with hero text
   - Two language options (English & Arabic)
@@ -94,7 +94,7 @@ Islam's CV data has been transformed and organized as follows:
 ## 🚀 How to Use
 
 ### Option 1: Start with Landing Page (Recommended)
-1. Open `index_islam.html` in your browser
+1. Open `index.html` in your browser
 2. Choose "Read in English" or "اقرأ بالعربية"
 3. Navigate through the portfolio using the menu
 
@@ -178,14 +178,19 @@ Update the timeline items with new positions or achievements.
 
 ## 🌐 Deployment Options
 
+### Vercel (Recommended)
+This project is pre-configured for Vercel deployment:
+1. Connect your GitHub repository to Vercel.
+2. Vercel will automatically detect the `vercel.json` and `index.html`.
+3. Your portfolio will be live with clean URLs like `/en` and `/ar`.
+
 ### Local Hosting
 1. Save files in a local folder
-2. Open `index_islam.html` in any modern browser
+2. Open `index.html` in any modern browser
 
 ### Web Server
-1. Upload all three HTML files to your web hosting
-2. Set `index_islam.html` as the landing page
-3. Keep the three files in the same directory (they link to each other)
+1. Upload all HTML files to your web hosting
+2. Set `index.html` as the landing page
 
 ### Popular Hosting Services
 - GitHub Pages (free)
@@ -199,7 +204,7 @@ Update the timeline items with new positions or achievements.
 ## 📊 Performance Notes
 
 ### File Sizes
-- `index_islam.html`: ~5KB
+- `index.html`: ~5KB
 - `islam_dakrory_portfolio.html`: ~29KB
 - `islam_dakrory_portfolio_ar.html`: ~31KB
 

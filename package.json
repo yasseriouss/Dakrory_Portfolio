@@ -1,0 +1,13 @@
+{
+  "name": "dakrory-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio of Islam Dakrory, Senior Production & Operations Engineer",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'No build step required'"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/en", "destination": "/islam_dakrory_portfolio.html" },
+    { "source": "/ar", "destination": "/islam_dakrory_portfolio_ar.html" }
+  ],
+  "redirects": [
+    { "source": "/index_islam.html", "destination": "/", "permanent": true },
+    { "source": "/islam_dakrory_portfolio.html", "destination": "/en", "permanent": true },
+    { "source": "/islam_dakrory_portfolio_ar.html", "destination": "/ar", "permanent": true }
+  ]
+}
