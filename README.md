@@ -1,7 +1,7 @@
-# Islam Dakrory - Professional Portfolio 📋
+# Islam Mohamed Dakrory - Professional Portfolio 📋
 
 ## 🎯 Overview
-A complete bilingual professional portfolio website for **Islam Dakrory**, Senior Production & Operations Engineer, built with the same luxury design theme and structure as Mwadda Ellban's portfolio.
+A complete bilingual professional portfolio website for **Islam Mohamed Dakrory**, Senior Production & Operations Engineer, built with the same luxury design theme and structure as Mwadda Ellban's portfolio.
 
 ---
 
@@ -24,7 +24,7 @@ A complete bilingual professional portfolio website for **Islam Dakrory**, Senio
   2. **Hero Section**: Eye-catching introduction with CTA button
   3. **About Me**: Professional summary with key achievements
   4. **About Stats**: 
-     - 10+ Years of Experience
+     - 7+ Years of Experience
      - 50+ Large-Scale Projects
      - 30% Capacity Increase
      - 45% Waste Reduction
@@ -283,7 +283,7 @@ For any modifications or customizations:
 
 ## 📝 Summary
 
-You now have a **professional, bilingual portfolio** for Islam Dakrory that:
+You now have a **professional, bilingual portfolio** for Islam Mohamed Dakrory that:
 - ✨ Matches Mwadda's luxury design theme
 - 🌍 Supports both English and Arabic seamlessly
 - 📱 Works perfectly on all devices
@@ -301,7 +301,7 @@ You now have a **professional, bilingual portfolio** for Islam Dakrory that:
 **Created**: May 2025  
 **Designer**: Claude (AI)  
 **Based on**: Mwadda Ellban Professional Portfolio  
-**For**: Islam Dakrory, Senior Production & Operations Engineer
+**For**: Islam Mohamed Dakrory, Senior Production & Operations Engineer
 
 ---
 
