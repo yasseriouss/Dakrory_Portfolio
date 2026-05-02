@@ -1,11 +1,18 @@
 {
-  "cleanUrls": true,
   "rewrites": [
-    { "source": "/", "destination": "/index.html" },
     { "source": "/en", "destination": "/islam_dakrory_portfolio.html" },
-    { "source": "/ar", "destination": "/islam_dakrory_portfolio_ar.html" }
+    { "source": "/ar", "destination": "/islam_dakrory_portfolio_ar.html" },
+    { "source": "/", "destination": "/index.html" }
   ],
   "redirects": [
     { "source": "/index_islam.html", "destination": "/", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" }
+      ]
+    }
   ]
 }
