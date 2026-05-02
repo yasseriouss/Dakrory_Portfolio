@@ -1,6 +1,4 @@
 {
-  "version": 2,
-  "public": true,
   "cleanUrls": true,
   "rewrites": [
     { "source": "/en", "destination": "/islam_dakrory_portfolio.html" },
