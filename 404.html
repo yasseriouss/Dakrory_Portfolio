@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | Islam Dakrory</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #0B1120;
+            --gold: #C5A059;
+            --white: #F8FAFC;
+            --gray: #94A3B8;
+        }
+        body {
+            background-color: var(--navy);
+            color: var(--white);
+            font-family: 'DM Sans', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            overflow: hidden;
+        }
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+            border: 1px solid rgba(197, 160, 89, 0.2);
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 6rem;
+            margin: 0;
+            color: var(--gold);
+            line-height: 1;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin: 1rem 0 2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        p {
+            color: var(--gray);
+            margin-bottom: 3rem;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: var(--gold);
+            color: var(--navy);
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            border: 1px solid var(--gold);
+        }
+        .btn:hover {
+            background: transparent;
+            color: var(--gold);
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <h2>Precision Error</h2>
+        <p>The system could not locate the requested resource. The production route you are following seems to be offline or relocated.</p>
+        <a href="/" class="btn">Return to Base</a>
+    </div>
+</body>
+</html>
